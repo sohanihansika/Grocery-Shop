@@ -1,0 +1,8 @@
+1. myenv\Scripts\Activate.ps1
+2. uvicorn main:app --reload  --> server
+npm start --> frontend
+http://localhost:8000/docs --> fast Api --> Swagger UI
+ pip install sqlalchemy psycopg2 --> DB
+
+orm_model.py --> SQLAlchemy models (db_model)
+ schemas.py            # Pydantic schemas (models)
